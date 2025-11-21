@@ -1,4 +1,4 @@
-from loader import load_ohlcv
+from src.core.data_reader import load_ohlcv
 
 df = load_ohlcv(
     root="data",
